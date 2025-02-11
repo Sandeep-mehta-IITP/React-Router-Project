@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
+
+
 export default function Home() {
     return (
         <div className="mx-auto w-full max-w-7xl">
@@ -32,12 +35,12 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="src/assets/Hompage_1.jpg" alt="image1" />
+                    <img className="w-96" src="./public/assets/Hompage_1.jpg" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="src/assets/Homepage_2.jpg" alt="image2" />
+                <img className="sm:w-96 w-48" src="./public/assets/Homepage_2.jpg" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Transform Your Vision into Reality !</h1>
